@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.scss'
+import '../../assets/css/lottery.scss';
 
 
 class Footer extends React.Component {
@@ -7,10 +7,10 @@ class Footer extends React.Component {
         return (
             <>
                 <div className="footer">
-                    <div className="container footer1">
+                    <div className="container">
                         <div className="row">
-                            <div className="col l-3 m-6 s-12">
-                                <h3 className="footer__title">About</h3>
+                            <div className="col-md-3">
+                                <h3 className="footer__title">ABOUT</h3>
                                 <ul>
                                     <li><a href="">Contact</a></li>
                                     <li><a href="">Brand</a></li>
@@ -19,7 +19,7 @@ class Footer extends React.Component {
                                     <li><a href="">Litepaper</a></li>
                                 </ul>
                             </div>
-                            <div className="col l-3 m-6 s-12">
+                            <div className="col-md-3">
                                 <h3 className="footer__title">HELP</h3>
                                 <ul>
                                     <li><a href="">Customer support</a></li>
@@ -27,7 +27,7 @@ class Footer extends React.Component {
                                     <li><a href="">Guides</a></li>
                                 </ul>
                             </div>
-                            <div className="col l-3 m-6 s-12">
+                            <div className="col-md-3">
                                 <h3 className="footer__title">DEVELOPER</h3>
                                 <ul>
                                     <li><a href="">Github</a></li>
@@ -37,16 +37,25 @@ class Footer extends React.Component {
                                     <li><a href="">Creers</a></li>
                                 </ul>
                             </div>
-                            <div className="col l-3 m-6 s-12">
-                                <img src="https://www.cryptoninjas.net/wp-content/uploads/pancakeswap-chainlink.jpg " class="img-responsive" alt="Image" />
+                            <div className="col-md-3">
+                                <img src={require('../../assets/images/footer.PNG')} class="img-responsive" alt="Image" />
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col-md-6 icon">
+                            <a><i class="fa fa-instagram"></i></a>
+                            <a><i class="fa fa-twitter"></i></a>
+                            <a><i class="fa fa-facebook"></i></a>
+                            <a><i class="fa fa-paper-plane"></i></a>
+                            <a><i class="fa fa-github"></i></a>
+                            </div>
+                            <div className="col-md-6"></div>
+                        </div>
+                        <hr></hr>
                     </div>
                 </div>
-                <div>
-                    <i class="fa-brands fa-instagram"></i>  
-                </div>
-                <br></br>
+
+                
             </>
         )
     }
