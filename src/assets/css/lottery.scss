@@ -1,5 +1,3 @@
-
-
 /* header css */
 
 /* Add a black background color to the top navigation */
@@ -34,14 +32,15 @@
     background-repeat: no-repeat;
     padding: 10px;
 }
+
 /* end header css */
 
 /* banner css */
 .banner {
     width: 100%;
     font-family:Arial, Helvetica, sans-serif ;
-    background-color: rgb(138, 48, 241);
-    box-shadow: 200px 200px 300px rgb(95, 5, 197) inset;
+    background-color: rgb(149, 98, 207);
+    box-shadow: 200px 200px 300px rgb(73, 20, 133) inset;
     color: aliceblue;
     font-weight:bolder;
     text-align: center;
@@ -55,6 +54,7 @@
 .text p{
     font-size: 20px;
     margin-bottom: 20px;
+    text-shadow: 0px 0px 20px #fff;
 }
 
 .text .butt{
@@ -332,41 +332,246 @@ img.tkr{
 }
 
 .main4 {
-    width: 100%;
-    background: rgba(181, 192, 201, 0.959);
+
+    height: 1000px;
+    background: rgba(214, 229, 241, 0.959);
+    box-shadow: 200px 200px 300px rgba(176, 136, 230, 0.959) inset;
+}
+
+.main4 h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(91, 40, 126);
 }
 
 
 .main4 .btn-his {
     width: 198px;
-    background-color: aqua;
-    border: solid 1px lightgray;
+    background-color: azure;
+    border: solid 1px azure;
     border-radius: 15px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
     margin:auto;
 }
 
 .main4 .btn-his a {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    padding: 2px;
     width: 100%;
     font-weight:bolder;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(141, 61, 141);
-    border: solid 1px lightgray !important;
+    border: solid 1px azure !important;
     border-radius: 15px;
     background-color: azure;
 }
+
+.main4 .btn-his a:hover{
+    background-color: rgb(163, 115, 185);
+    color: azure;
+}
+
 .his {
     border: solid 1px ;
 }
-
 .main5 {
-    border-radius: 50px !important;
-    width: 70% !important;
-    margin-left: 15%;
-    background-color:aliceblue;
+    border:1px solid azure !important;
+    border-radius: 30px !important;
+    width: 60% !important;
+    height: 700px;
+    margin-left: 20%;
+    background-color:#fff;
+    
 }
+
+.c-left h5,
+.c-left p, .under{
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: left !important;
+    color: rgb(55, 5, 121);
+}
+
+.c-left h5,.under h4 {
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(55, 5, 121);
+}
+
+.c-left p {
+    font-size: 11px;
+}
+
+span.round{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(78, 3, 148);
+    font-weight: normal;
+    border: 1px solid rgb(214, 213, 213);
+    background-color: rgba(230, 228, 228, 0.993);
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.c-right a{
+    float: right;
+    margin-right: 20px;
+    color: rgb(79, 5, 177) !important;
+}
+
+.c-right a:hover{
+    color: rgb(193, 161, 223) !important; 
+}
+
+
+.numbergen0 {
+    margin-left: 180px ;
+    text-align: right !important;
+    
+}
+
+.numbergen0 span {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-right: 10px;
+    border: solid 1px lightgray;
+    border-radius: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+}
+
+.numbergen0 p span.nu0{
+    border: rgb(255, 208, 0);
+}
+
+.numbergen0 p span.nu1 { 
+    background-color: rgb(253, 243, 167);
+    border: 1px solid rgb(255, 115, 0);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow: -20px -30px 5px 15px rgb(253, 170, 16) inset;
+}
+
+.numbergen0 p span.nu2 { 
+    background-color: rgb(209, 243, 209);
+    border:1px solid rgb(61, 214, 112);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow:  -20px -30px 5px 15px rgb(70, 241, 127) inset;
+}
+
+.numbergen0 p span.nu3 { 
+    background-color: rgb(171, 245, 220);
+    border:1px solid rgb(29, 182, 131);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow: -20px -30px 5px 15px rgb(39, 226, 164) inset;
+}
+
+.numbergen0 p span.nu4 { 
+    background-color: rgb(166, 215, 245);
+    border:1px solid rgb(52, 144, 201);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow: -20px -30px 5px 15px rgb(65, 178, 248) inset;
+}
+
+.numbergen0 p span.nu5 { 
+    background-color: rgb(225, 195, 245);
+    border:1px solid rgb(144, 79, 187);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow:  -20px -30px 5px 15px rgb(172, 105, 250) inset;
+}
+
+.numbergen0 p span.nu6 { 
+    background-color: rgb(248, 188, 233);
+    border:1px solid rgb(173, 77, 149);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    box-shadow:  -20px -30px 5px 15px rgb(228, 102, 196) inset;
+}
+
+.box1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    overflow: hidden;
+    
+}
+.box2{
+    overflow: hidden;
+    border: solid;
+    
+}
+
+.left-detail{
+    text-align: left;
+    padding-left: 35px;
+}
+
+.left-detail h4{
+    font-weight: bolder;
+    color: rgb(55, 5, 121);
+}
+
+.left-detail p.priz{
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgb(134, 46, 250);
+}
+
+.left-detail p.cake, .right-detail p.texts{
+    font-weight: 400;
+    color: rgb(144, 69, 241);
+}
+
+.left-detail p.total{
+    margin-top: 120px;
+    color: rgb(58, 10, 122);
+}
+
+.right-detail{
+    text-align: left;
+    padding-left: 35px;
+}
+
+.right-detail h5{
+    font-size: 15px;
+    color: rgb(65, 14, 131);
+    margin-bottom: 20px;
+}
+
+.match, .burn {
+    font-size: 16px ;
+    font-weight: bolder ;
+    margin-top: 20px ;
+}
+
+.match{
+    color: rgb(154, 89, 240) ;
+}
+
+.burn{
+    color: rgb(241, 9, 241) ;
+}
+
+.cake1{
+    color: rgb(65, 14, 131) ;
+    font-size: 18px;
+    font-weight: bolder ;
+}
+
+
+
+// .numbergen0 p{
+//     transform: rotate(45deg) translateX(180px);
+// }
 
 .container .text1 {
     margin-top: 50px;
@@ -596,7 +801,9 @@ img.tkr{
 }
 .footer__title {
     text-align: left;
-    margin-left: 40px;
+}
+.row ul{
+    list-style: none;
 }
 
 .row ul li a {
@@ -629,3 +836,105 @@ h3 {
 }
 
 /*end footer css*/  
+
+
+
+/* contact css*/ 
+.contact{
+    width:100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner h2{
+    padding-top: 50px;
+    font-size: 150px;
+    font-weight: bolder;
+    color: rgb(255, 196, 0);
+    text-shadow: 0px 0px 20px rgb(245, 194, 100);
+} 
+
+span.t1, span.t3, span.t4, span.t7{
+    position:relative;
+    top:0px;
+    bottom:0px;
+    animation-name:move4;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes move4{
+    0%{
+        top:0px;
+        bottom:0px;
+    }
+    10%{
+        top:0px;
+        bottom:10px;
+    }
+    40%{
+        top:10px;
+        bottom:0px;
+    }
+    100%{
+        top:0px;
+        bottom:0px;
+    }
+}
+
+span.t2, span.t5, span.t6{
+    position:relative;
+    top:0px;
+    bottom:0px;
+    animation-name:move5;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes move5{
+    0%{
+        top:0px;
+        bottom:0px;
+    }
+    10%{
+        top:0px;
+        bottom:20px;
+    }
+    40%{
+        top:20px;
+        bottom:0px;
+    }
+    100%{
+        top:0px;
+        bottom:0px;
+    }
+}
+
+.contact1{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(174, 219, 248);
+    box-shadow: 200px 200px 300px rgb(199, 87, 243) inset;
+}
+
+.contact h3{
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+.infor {
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.infor h4{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}

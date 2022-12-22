@@ -1,6 +1,8 @@
 import React from "react";
 import '../../assets/css/lottery.scss';
-
+import {
+    Link, NavLink
+} from 'react-router-dom';
 class Header extends React.Component {
 
     state = {
@@ -14,32 +16,29 @@ class Header extends React.Component {
         return (
             <>
                 <div className="header">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top topnav">
-                        <div class="container">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top topnav">
+                        <div className="container">
 
-                            <img src={require('../../assets/images/logo1.png')} width="100" height="50" class="img-responsive" alt="Image" />
+                            <img src={require('../../assets/images/logo1.png')} width="150" height="50" className="img-responsive" alt="Image" />
 
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarResponsive">
-                                <ul class="navbar-nav ms-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <i class="fa fa-home"></i></a>
+                            <div className="collapse navbar-collapse" id="navbarResponsive">
+                                <ul className="navbar-nav ms-auto">
+                                    <li className="nav-item active">
+                                        <NavLink to="/">Home</NavLink>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Information</a>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/contact">Contact</NavLink>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">History</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" to="/admin">Admin</NavLink>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <a class="nav-link" href="#" >Log In</a>
+                                <a className="nav-link" href="#" >Log In</a>
                             </div>
                         </div>
                     </nav>

@@ -38,16 +38,16 @@ class Footer extends React.Component {
                                 </ul>
                             </div>
                             <div className="col-md-3">
-                                <img src={require('../../assets/images/footer.PNG')} class="img-responsive" alt="Image" />
+                                <img src={require('../../assets/images/footer.PNG')} className="img-responsive" alt="Image" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-6 icon">
-                            <a><i class="fa fa-instagram"></i></a>
-                            <a><i class="fa fa-twitter"></i></a>
-                            <a><i class="fa fa-facebook"></i></a>
-                            <a><i class="fa fa-paper-plane"></i></a>
-                            <a><i class="fa fa-github"></i></a>
+                            <a><i className="fa fa-instagram"></i></a>
+                            <a><i className="fa fa-twitter"></i></a>
+                            <a><i className="fa fa-facebook"></i></a>
+                            <a><i className="fa fa-paper-plane"></i></a>
+                            <a><i className="fa fa-github"></i></a>
                             </div>
                             <div className="col-md-6"></div>
                         </div>
